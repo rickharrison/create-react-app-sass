@@ -1,0 +1,27 @@
+{
+  "name": "create-react-app-sass",
+  "version": "1.0.0",
+  "description": "Add sass support to create-react-app.",
+  "main": "./bin/react-scripts-with-sass.js",
+  "bin": {
+    "react-scripts-with-sass": "./bin/react-scripts-with-sass.js"
+  },
+  "scripts": {},
+  "repository": "rickharrison/create-react-app-sass",
+  "keywords": [
+    "create-react-app",
+    "react",
+    "sass"
+  ],
+  "author": "Rick Harrison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rickharrison/create-react-app-sass/issues"
+  },
+  "homepage": "https://github.com/rickharrison/create-react-app-sass",
+  "dependencies": {
+    "cross-spawn": "^4.0.2",
+    "find-remove": "^1.0.0",
+    "node-sass": "^3.10.1"
+  }
+}
