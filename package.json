@@ -1,6 +1,6 @@
 {
   "name": "create-react-app-sass",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Add sass support to create-react-app.",
   "main": "./bin/react-scripts-with-sass.js",
   "bin": {

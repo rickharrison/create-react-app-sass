@@ -23,6 +23,19 @@ switch(script) {
 
     break;
 
+  case 'build':
+    findRemove(path.join(process.cwd(), 'src'), { extensions: '.css' });
+
+    spawn.sync('node-sass', ['src', '--output', 'src'], {
+      stdio: 'inherit'
+    });
+
+    spawn.sync('react-scripts', ['build'], {
+      stdio: 'inherit'
+    });
+
+    break;
+
   default:
     console.log('Unknown script: ' + script);
     console.log('Perhaps you meant to run `react-scripts` or `react-scripts-with-sass start`');
