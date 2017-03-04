@@ -1,3 +1,7 @@
+# This project has been *deprecated*
+
+Please use https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-css-preprocessor-sass-less-etc instead.
+
 # create-react-app-sass
 
 Enhances [create-react-app](https://github.com/facebookincubator/create-react-app) to include support for [Sass](http://sass-lang.com/).
